@@ -1,0 +1,43 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env process.env.section=frontend NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "cross-env process.env.section=frontend NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env process.env.section=frontend NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "dev-backend": "npm run development-backend",
+        "development-backend": "cross-env process.env.section=backend NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch-backend": "cross-env process.env.section=backend NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod-backend": "npm run production-backend",
+        "production-backend": "cross-env process.env.section=backend NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.18",
+        "bootstrap-datepicker": "^1.7.1",
+        "bootstrap-sass": "^3.3.7",
+        "chart.js": "^2.7.2",
+        "cross-env": "^5.1",
+        "epic-spinners": "^1.0.3",
+        "jquery": "^3.2",
+        "laravel-mix": "^2.0",
+        "laravel-mix-merge-manifest": "^0.1.1",
+        "lodash": "^4.17.4",
+        "moment": "^2.21.0",
+        "moment-range": "^4.0.1",
+        "placeholder-loading": "^0.1.4",
+        "popper.js": "^1.12",
+        "sweetalert2": "^7.26.9",
+        "toastr": "^2.1.4",
+        "vee-validate": "^2.0.3",
+        "vue": "^2.5.7",
+        "vue-trumbowyg": "^3.3.0",
+        "vue2-dropzone": "^3.2.2",
+        "vuex": "^3.0.1"
+    },
+    "dependencies": {
+        "@vuejs-pt/vue-alert": "^1.2.2",
+        "he": "^1.1.1",
+        "vue-flash-message": "^0.6.2"
+    }
+}

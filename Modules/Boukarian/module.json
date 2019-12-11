@@ -1,0 +1,16 @@
+{
+    "name": "Boukarian",
+    "alias": "boukarian",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Boukarian\\Providers\\BoukarianServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

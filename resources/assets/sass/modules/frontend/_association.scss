@@ -1,0 +1,61 @@
+
+._section {
+  display: flex;
+  margin-top: 60px;
+
+    ._section-title {
+        font-weight: 600;
+        font-size: 30px;
+        color: $brand-dark;
+        padding: 5px 0;
+        text-transform: uppercase;
+    }
+
+    ._category-name {
+        color: $brand-teal;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    ._tags-post {
+        color: $brand-teal;
+        font-size: 14px;
+    }
+
+    ._title-post {
+        color: $brand-darker;
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    ._date-post {
+        color: $brand-teal;
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+    ._image-post {
+        width: 100%;
+        height: 300px;
+        min-height: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        img {
+          width: 100%;
+        }
+    }
+
+    ._content-post {
+        width: 100%;
+        color: $brand-dark;
+        text-align: justify;
+        padding-top: 20px
+    }
+    ._no-padding{
+        padding:0 ! important;
+    }
+}

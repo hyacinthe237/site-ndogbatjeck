@@ -1,0 +1,115 @@
+.head-desc {
+    margin-top: 20px;
+    text-align: center;
+
+    p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .title {
+        margin:auto;
+        display: block;
+        color: white;
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        background-color: $brand-success;
+        position: relative;
+        z-index: 3;
+        box-shadow: 4px 2px 4px rgba(0,0,0,0.1);
+        border-radius: 15px 15px 0px 0px;
+    }
+}
+
+.Services-tab{
+    margin-bottom: 10px;
+
+    h3 {
+      color: white;
+      font-size: 24px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .text{
+    	color: white;
+    	text-align: center;
+
+        i {
+            font-size: 50px;
+        }
+    }
+
+
+    .folded-corner:hover .text{
+    	visibility: visible;
+    	color: #000000;;
+    }
+
+    .folded-corner{
+      padding: 25px 25px;
+      position: relative;
+      font-size: 90%;
+      text-decoration: none;
+      color: #999;
+      background: transparent;
+      transition: all ease .5s;
+      border-radius: 0px 0px 15px 15px;
+    }
+    .folded-corner:hover{
+    	background-color: $brand-success;
+        cursor: pointer;
+    }
+
+    .folded-corner:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-style: solid;
+      border-width: 0 0px 0px 0;
+      border-color: #ddd $brand-grey;
+      transition: all ease .3s;
+    }
+
+    .folded-corner:hover:before {
+    	background-color: #D00003;
+      border-width: 0 50px 50px 0;
+      border-color: #eee $brand-grey;
+
+    }
+
+    .service_tab_1{
+    	background-color: $brand-grey;
+    }
+    .service_tab_1:hover .fa-icon-image{
+        color: $brand-grey;
+        transform: rotate(360deg) scale(1.5);
+    }
+
+
+    .fa-icon-image{
+    	color: rgba(31,181,172,.9);
+    	display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        line-height: 1;
+        font-size-adjust: none;
+        font-stretch: normal;
+        -moz-font-feature-settings: normal;
+        -moz-font-language-override: normal;
+        text-rendering: auto;
+        transition: all .65s linear 0s;
+        text-align: center;
+        transition: all 1s cubic-bezier(.99,.82,.11,1.41);
+    }
+
+}
+
+.join {
+    margin-top: 30px;
+    display: block;
+}

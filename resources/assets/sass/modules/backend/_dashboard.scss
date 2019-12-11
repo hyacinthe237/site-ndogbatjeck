@@ -1,0 +1,107 @@
+.dashboard {
+    padding: 20px;
+    margin-top: 20px;
+
+    .cards {
+        .card {
+            text-align: center;
+            padding: 20px 0;
+            color: white;
+            border-radius: 3px;
+            margin-bottom: 10px;
+            font-weight: 300;
+            font-family: 'Source Sans Pro', Cabin, sans-serif;
+
+            h3 {
+                font-size: 1.5em;
+            }
+
+            i {
+                font-size: 35px;
+            }
+
+            &.blue {
+                background-color: #3080ff;
+            }
+            &.green {
+                background-color: $brand-success;
+            }
+            &.dark {
+                background-color: $brand-font;
+            }
+            &.red {
+                background-color: $brand-danger;
+            }
+            &.purple {
+                background-color: $brand-purple;
+            }
+            &.grey {
+                background-color: #edf1f7;
+                color: $brand-font;
+            }
+        }
+    }
+
+
+
+    .table {
+        font-family: 'Source Sans Pro', sans-serif;
+
+        > thead {
+            > tr {
+                > th {
+                    border-bottom: 1px solid #e8ecf3;
+                    line-height: 1.5;
+                    font-size: 1.1em;
+                    font-weight: 500;
+                    color: $titleColour;
+                    font-family: 'Josefin Sans', Cabin, sans-serif;
+                }
+            }
+        }
+
+        >tbody {
+            > tr {
+                > td {
+                    font-weight: 400;
+                    font-size: 15px;
+
+                    a {
+                        color: $titleColour;
+
+                        &.edit-icon { color: white }
+
+                        &.delete-icon { color: white }
+                    }
+
+                    &:last-child {
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+
+    .edit-icon {
+        padding: 7px 10px;
+        border-radius: 4px;
+        background-color: $titleColour;
+        cursor: pointer;
+        color: white;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .delete-icon {
+        padding: 7px 10px;
+        border-radius: 4px;
+        background-color: $brand-danger;
+        cursor: pointer;
+        color: white;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
