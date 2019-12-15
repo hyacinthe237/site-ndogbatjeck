@@ -2,6 +2,12 @@
 /public/hot
 /public/storage
 /public/docs
+/public/assets/activity
+/public/assets/blog
+/public/assets/offer
+/public/assets/page
+/public/assets/partners
+/public/assets/project
 /public/assets/js/*
 /public/assets/css/*
 /public/mix-manifest.json
