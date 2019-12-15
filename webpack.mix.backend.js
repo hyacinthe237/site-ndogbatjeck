@@ -17,12 +17,12 @@ require('laravel-mix-merge-manifest');
  });
 
 
- mix.js('resources/assets/js/admin.js', 'public/backend/js')
+ mix.js('resources/assets/js/admin.js', 'backend/js')
  .extract(['vue', 'jquery', 'bootstrap-sass', 'lodash', 'moment', 'sweetalert2',
      'toastr', 'vuex', 'axios', 'moment-range', 'vee-validate',
      'vue-trumbowyg', 'vue2-dropzone', 'chart.js', 'bootstrap-datepicker'
  ]);
- mix.sass('resources/assets/sass/admin.scss', 'public/backend/css')
+ mix.sass('resources/assets/sass/admin.scss', 'backend/css')
  .options({
      processCssUrls: false,
      imgLoaderOptions: {
