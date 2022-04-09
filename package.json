@@ -23,7 +23,7 @@
         "laravel-mix": "^2.0",
         "laravel-mix-merge-manifest": "^0.1.1",
         "lodash": "^4.17.4",
-        "moment": "^2.21.0",
+        "moment": "^2.29.2",
         "moment-range": "^4.0.1",
         "placeholder-loading": "^0.1.4",
         "popper.js": "^1.12",
