@@ -20,7 +20,7 @@
         "cross-env": "^5.1",
         "epic-spinners": "^1.0.3",
         "jquery": "^3.2",
-        "laravel-mix": "^2.0",
+        "laravel-mix": "^6.0",
         "laravel-mix-merge-manifest": "^0.1.1",
         "lodash": "^4.17.4",
         "moment": "^2.21.0",
